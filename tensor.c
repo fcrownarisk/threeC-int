@@ -924,6 +924,7 @@ int ninetensor9[9][9] =
      {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0}}
 ;
 return 0;
@@ -935,7 +936,7 @@ void fermat() {
   char Z = "BigZtensor + midztensor + smallztensor";
                  X ^ 2 + Y ^ 2 == Z ^ 2;
   char oneninetensor = "onetensor + ninetensor";
-                        "oneninetensor = zerotensor";
+                       "oneninetensor = zerotensor";
   char input ="innertensor + outertensor + antiinouttensor";
   char output="outintensor + outertensor + antioutintensor";
                            "input = output";
