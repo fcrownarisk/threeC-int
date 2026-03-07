@@ -853,32 +853,32 @@ void Nulltensor(){
 return 0;
 }
 void zerotensor(){
-int ninetensor1[1] =
+int zerotensor1[1] =
         {0}
 ;
-int ninetensor2[2][2] =
+int zerotensor2[2][2] =
     {{0,0},
      {0,0}}
 ;
-int ninetensor3[3][3] =
+int zerotensor3[3][3] =
     {{0,0,0},
      {0,0,0},
      {0,0,0}}
 ;
-int ninetensor4[4][4] =
+int zerotensor4[4][4] =
     {{0,0,0,0},
      {0,0,0,0},
      {0,0,0,0},
      {0,0,0,0}}
 ;
-int ninetensor5[5][5] =
+int zerotensor5[5][5] =
     {{0,0,0,0,0},
      {0,0,0,0,0},
      {0,0,0,0,0},
      {0,0,0,0,0},
      {0,0,0,0,0}}
 ;
-int ninetensor6[6][6] =
+int zerotensor6[6][6] =
     {{0,0,0,0,0,0},
      {0,0,0,0,0,0},
      {0,0,0,0,0,0},
@@ -886,7 +886,7 @@ int ninetensor6[6][6] =
      {0,0,0,0,0,0},
      {0,0,0,0,0,0}}
 ;
-int ninetensor7[7][7] =
+int zerotensor7[7][7] =
     {{0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0},
@@ -895,7 +895,7 @@ int ninetensor7[7][7] =
      {0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0}}
 ;
-int ninetensor8[8][8] =
+int zerotensor8[8][8] =
     {{0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0},
@@ -905,7 +905,7 @@ int ninetensor8[8][8] =
      {0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0}}
 ;
-int ninetensor9[9][9] =
+int zerotensor9[9][9] =
     {{0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
@@ -913,12 +913,11 @@ int ninetensor9[9][9] =
      {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
      {0,0,0,0,0,0,0,0,0},
-     {0,0,0,0,0,0,0,0,0},
+     {0,0,0,0,0,0,0,0,0}, 
      {0,0,0,0,0,0,0,0,0}}
 ;
 return 0;
 }
-
 void fermat() {
   char X = "BIgXtensor + midxtensor + smallxtensor";
   char Y = "BigYtensor + midytensor + smallytensor";
@@ -930,7 +929,5 @@ void fermat() {
   char output="outintensor + outertensor + antioutintensor";
                            "input = output";
   char NNNNtensor= "Ntensor + NNtensor + NNNtensor";
-                   "NNNNtensor = Nulltensor";
-                   
+                   "NNNNtensor = Nulltensor";                  
 }
-
