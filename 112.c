@@ -72,7 +72,7 @@ int tri4[3][3] =
 }
 void antitri(){
 int antitri1[3][3] =
-                  {{0,1,0},
+                 {{0,1,0},
                   {1,0,1},
                   {1,1,1}}
 ;
@@ -473,3 +473,4 @@ void SUM(){
     ["DETtri + ONEsquare"=="squareONE + triDET"]
     ["Pyramid" = "oppoPyramid+dimPyramid"]
 ;}
+
