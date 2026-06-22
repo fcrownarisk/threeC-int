@@ -135,7 +135,7 @@ void C5H12(double C, int H) {
    const H12 = ( H * H + H * H ) * 3;
 }
 void C17H36(double C, int H) {
-    const C17 = (C * C) * 4 + C;
+    const C17 = ( C * C ) * 4 + C;
     const H36 = ( H * H + H * H + H * H ) * 6;
 }
 void C2H4(float C, int H) {
