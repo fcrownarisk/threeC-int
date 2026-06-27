@@ -924,10 +924,9 @@ void fermat() {
                  X ^ 2 + Y ^ 2 == Z ^ 2;
   char oneninetensor = "onetensor + ninetensor";
                        "oneninetensor = zerotensor";
-  char input ="innertensor + outertensor + antiinouttensor";
-  char output="outintensor + outertensor + antioutintensor";
+  char input ="innertensor + inouttensor + antiinouttensor";
+  char output="outertensor + outintensor + antioutintensor";
                            "input = output";
   char NNNNtensor= "Ntensor + NNtensor + NNNtensor";
                    "NNNNtensor = Nulltensor";                  
 }
-
