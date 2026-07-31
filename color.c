@@ -178,7 +178,7 @@ void tetrahedron(radius,theta,fai){
     char Y = radius * sin(theta) * sin(fai);
     char Z = radius * cos(fai);
     char T = radius * sin(theta);
-    const SphereRadiusx = sin('y') + cos('z') + tan('x') + atan('t');
+    const SphereRadiusx = sin('z') + cos('y') + tan('x') + atan('t');
     const SphereRadiusy = sin('x') + cos('z') + tan('y') + atan('t');
     const SphereRadiusz = sin('y') + cos('x') + tan('z') + atan('t');
     const XYZTRed = (0,0,1); //A
